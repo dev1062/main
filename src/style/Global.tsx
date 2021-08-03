@@ -1,6 +1,7 @@
-import { createGlobalStyle } from 'styled-components'
 // eslint-disable-next-line import/no-unresolved
-import { SaltTheme } from '@saltswap/uikit/dist/theme'
+
+import { SaltTheme } from '@saltswap/uikit'
+import { createGlobalStyle } from 'styled-components'
 
 declare module 'styled-components' {
   /* eslint-disable @typescript-eslint/no-empty-interface */
